@@ -23,53 +23,53 @@
     <body>
 
         <!-- Navigation -->
-<!--Note that the text-uppercase will set the name in caps -->
-<div class="navbar navbar-default navbar-fixed-top text-uppercase" id="mainNav" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Kaylea's Portfolio</a>
+        <nav class="navbar navbar-default" id="main-nav" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
+                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand text-uppercase navbar-left" id="developer-name" href="#">EFA Starter Template</a>
+                </div>
+            
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right nav-choices">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="active">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="active">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="active">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="active">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-      </div>
+        </nav>
       
       <br />
 
         <!-- Header -->
-        <header class="jumbotron text-center">
+        <header class="jumbotron text-center" id="main-header">
             <div class="container">
                 <h1 class="jumbotron-heading">Coder Portfolio</h1>
-                <p class="lead text-muted">Some text about how amazing and awesome we are.</p>
+                <p class="lead text-muted">Some text. A tag line. A lorem ipsum for now. More text that shows some sort of call to action.</p>
                 <p>
-                    <a href="#" class="btn btn-primary">Press here for something.</a>
+                    <a href="#" class="btn btn-primary" id="header-action">Press here for something.</a>
                 </p>
             </div>
         </header>
 
         <!-- Portfolio -->
-        <section>
+        <section id="portfolio">
             <div class="row">
                 <h2 class="text-center text-uppercase text-white">Portfolio</h2>
                 <div class="col-md-4">
@@ -115,7 +115,7 @@
         </section>
 
         <!-- About -->
-        <section class="bg-primary text-white">
+        <section id="about" class="bg-primary text-white">
             <div class="container">
                 <h2 class="text-center text-uppercase text-white">About</h2>
                 <div class="row">
@@ -136,7 +136,7 @@
         </section>
 
         <!-- Contact -->
-        <section>
+        <section id="contact">
             <div class="container">
                 <h2 class="text-center text-uppercase">Contact Me</h2>
                 <div class="row">
