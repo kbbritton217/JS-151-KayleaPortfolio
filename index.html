@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,29 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Document</title>
+        <title>Starter</title>
 
         <!-- Bootstrap core CSS Modules-->
         <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
         <link href="" rel="stylesheet" type="text/css">
 
-        <!-- Custom styles for this template -->
-        <link href="css/main.css" rel="stylesheet" type="text/css">
 
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+        <link rel="stylesheet" href="node_modules/magnific-popup/dist/magnific-popup.css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
     </head>
+
     <body>
 
         <!-- Navigation -->
+
         <nav class="navbar navbar-default" id="main-nav" role="navigation">
             <div class="container">
                 <div class="navbar-header">
@@ -33,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand text-uppercase navbar-left" id="developer-name" href="#">EFA Starter Template</a>
+                    <a class="navbar-brand text-uppercase navbar-left"  class="section-title"  href="#">EFA Starter Template</a>
                 </div>
             
                 <div class="navbar-collapse collapse">
@@ -58,10 +66,14 @@
       <br />
 
         <!-- Header -->
+
         <header class="jumbotron text-center" id="main-header">
             <div class="container">
-                <h1 class="jumbotron-heading">Coder Portfolio</h1>
-                <p class="lead text-muted">Some text. A tag line. A lorem ipsum for now. More text that shows some sort of call to action.</p>
+                <h1 class="jumbotron-heading">Paul O'Connor</h1>
+                <div class="section-description wow fadeInUp" data-wow-duration="5s">
+                    <p class="lead text-muted">Some text. A tag line. A lorem ipsum for now. More text that shows some sort of call to action.</p>
+                
+                </div>
                 <p>
                     <a href="#" class="btn btn-primary" id="header-action">Press here for something.</a>
                 </p>
@@ -69,119 +81,222 @@
         </header>
 
         <!-- Portfolio -->
+
         <section id="portfolio">
-            <div class="row">
-                <h2 class="text-center text-uppercase text-white">Portfolio</h2>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="assets/img/badge-blue.png" alt="">
-                        <div class="text-center caption">
-                            <h3>Portfolio Item #1</h3>
-                            <p>Sub title</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">Button</a>
-                                <a href="#" class="btn btn-default" role="button">Button</a>
-                            </p>
-                        </div>
+            <div class="container wow fadeInUp">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">Portfolio</h3>
+                        <div class="section-title-divider"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="assets/img/badge-red.png" alt="">
-                        <div class="text-center caption">
-                            <h3>Portfolio Item #2</h3>
-                            <p>Sub title</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">Button</a>
-                                <a href="#" class="btn btn-default" role="button">Button</a>
-                            </p>
-                        </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="portfolio-item" style="background-image: url(assets/img/badge-blue.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 1</h4>
+                                <span>CSS Creature</span>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="assets/img/badge-yellow.png" alt="">
-                        <div class="text-center caption">
-                            <h3>Portfolio Item #3</h3>
-                            <p>Sub title</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">Button</a>
-                                <a href="#" class="btn btn-default" role="button">Button</a>
-                            </p>
-                        </div>
+        
+                    <div class="col-md-3">
+                        <a class="portfolio-item" style="background-image: url(assets/img/badge-red.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 2</h4>
+                                <span>Store app</span>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <a class="portfolio-item" style="background-image: url(assets/img/badge-yellow.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 3</h4>
+                                <span>JavaScript Library</span>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <a class="portfolio-item" style="background-image: url(assets/img/badge-blue.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 4</h4>
+                                <span>Workout Log</span>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <a class="portfolio-item" style="background-image: url(assets/img/badge-red.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 5</h4>
+                                <span>Bucketlist App</span>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <a class="portfolio-item" style="background-image: url(assets/img/badge-blue.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 6</h4>
+                                <span>Firebase Starter</span>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <a class="portfolio-item" style="background-image: url(assets/img/badge-yellow.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 7</h4>
+                                <span>React Projects</span>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <a class="portfolio-item img-responsive" style="background-image: url(assets/img/badge-red.png);" href="">
+                            <div class="details">
+                                <h4>Portfolio 8</h4>
+                                <span>Node Projects</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- About -->
-        <section id="about" class="bg-primary text-white">
+
+        <section id="about">
             <div class="container">
-                <h2 class="text-center text-uppercase text-white">About</h2>
                 <div class="row">
-                    <div class="col-lg-4">
-                        <p class="lead">Use this to get started with talking about your abilities. Here you will showcase your work, share contact
-                            information, attract employers, and get practice with front end development! let's have some fun!</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <p class="lead"> >Use this to get started with talking about your abilities. Here you will showcase your work, share contact
-                            information, attract employers, and get practice with front end development! let's have some fun!</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <p class="lead"> >Use this to get started with talking about your abilities. Here you will showcase your work, share contact
-                            information, attract employers, and get practice with front end development! let's have some fun!</p>
+                    <div class="col-md-12">
+                        <h3 class="section-title">About</h3>
+                        <div class="section-title-divider"></div>
                     </div>
                 </div>
+                <section class="about-panel wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="col-lg-4">
+                        <p class="lead">Use this to get started with talking about your abilities. Here you will showcase your work, share contact information, attract employers, and get practice with front end development! let's have some fun!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="lead">Use this to get started with talking about your abilities. Here you will showcase your work, share contact information, attract employers, and get practice with front end development! let's have some fun!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="lead">Use this to get started with talking about your abilities. Here you will showcase your work, share contact information, attract employers, and get practice with front end development! let's have some fun!</p>
+                    </div>
+                </section>
             </div>
         </section>
 
         <!-- Contact -->
-        <section id="contact">
-            <div class="container">
-                <h2 class="text-center text-uppercase">Contact Me</h2>
+
+        <section id="contact" class="block block-bg-grey-dark">
+            <div class="container wow fadeInUp">
                 <div class="row">
-                    <form>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Name">
+                    <!-- Info -->
+                    <div class="col-md-3">
+                        <address>
+                            <strong>Paul O'Connor</strong>
+                            <br>
+                            <i class="fa fa-map-pin"></i> Westfield, IN 46074
+                            <br>
+                            <i class="fa fa-phone"></i> 970-631-6367
+                            <br>
+                            <i class="fa fa-envelope-o"></i> jamespauloconnor@gmail.com
+                            <br>
+                        </address>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="col-md-6">
+                        <form action="https://formspree.io/kbbritton217@gmail.com" method="POST">
+                            <div class="control-group">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
+                                        name="name">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group">
+                                    <label>Email Address</label>
+                                    <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
+                                        name="_replyto">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                                        name="message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-lg btn-black">
+                                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!--Social Media Links -->
+                    <div class="col-md-3">
+                        <div class="container">
+                            <div class="col-md-6-offset col-md-6">
+                                <div class="social-links">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="facebook">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="github">
+                                                <i class="fa fa-github"></i>
+                                            </a>
+                                        </li>
+        
+                                        <li>
+                                            <a href="#" class="google-plus">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="linkedin">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Email Address</label>
-                                <input class="form-control" id="email" type="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Send</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer class="bg-primary">
-            <p class="float-right">
-                <a href="#">Back to top</a>
-            </p>
-            <p>&copy; 2018 Developer Company, Inc. &middot;
-                <a href="#">Privacy</a> &middot;
-                <a href="#">Terms</a>
-            </p>
+        <footer>
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">Back to top</a>
+                </p>
+                <p>&copy; 2018 Paul O'Connor, weekend project built for helping students &middot;
+                    <p>This template is owned by &copy; Eleven Fifty Academy, but is free for you to use and make customer alterations!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus incidunt repellendus similique at adipisci
+                        iste?
+                    </p>
+                    <a href="#">Privacy</a> &middot;
+                    <a href="#">Terms</a>
+                </p>
+            </div>
         </footer>
 
         <!-- Copyright -->
@@ -190,11 +305,13 @@
 
         <!-- Scripts -->
 
-            <!-- jQuery -->
+            <!-- Bootstrap & jQuery Scripts - Note: jQuery must be first -->
             <script src="node_modules/jquery/dist/jquery.min.js"></script>
-
-            <!-- Bootstrap -->
             <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+            <!-- jQuery 3rd Party Scripts-->
+            <script src="node_modules/wowjs/dist/wow.min.js"></script>
+            <script src="node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 
             <!-- Custom scripts for this template -->
             <script src="js/main.js"></script>
